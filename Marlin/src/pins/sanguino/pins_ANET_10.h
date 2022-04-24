@@ -216,10 +216,11 @@
 
 #else
   #define SERVO0_PIN                          27
+  #define SERVO1_PIN                          29
 #endif
 
 #ifndef FIL_RUNOUT_PIN
-  #define FIL_RUNOUT_PIN              SERVO0_PIN
+  #define FIL_RUNOUT_PIN              SERVO1_PIN
 #endif
 
 /**
